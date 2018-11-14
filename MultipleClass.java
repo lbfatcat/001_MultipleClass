@@ -13,6 +13,7 @@ public class MultipleClass
 	public static void main(String [] args)
 	{
 		System.out.println("This is the main in the MulipleClass");
+		MultipleClass mtp_cls= new MultipleClass(1,2);
 		return;
 	}
 }
@@ -21,7 +22,7 @@ class ClassOne
 {
 	ClassOne(int i)
 	{
-		System.out.println("print Class One");
+		System.out.println("print Class One: NO."+i);
 	}
 }
 
@@ -29,6 +30,6 @@ class ClassTwo
 {
 	ClassTwo(int i)
 	{
-		System.out.println("print Class Two");
+		System.out.println("print Class Two: NO."+i);
 	}
 }
