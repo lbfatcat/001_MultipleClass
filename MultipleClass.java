@@ -13,7 +13,7 @@ public class MultipleClass
 	public static void main(String [] args)
 	{
 		System.out.println("This is the main in the MulipleClass");
-		MultipleClass mtp_cls= new MultipleClass(1,2);
+		new MultipleClass(1,2);
 		return;
 	}
 }
